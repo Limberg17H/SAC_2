@@ -5,8 +5,9 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import Layout from '../Componentes/Layouts/Layout';
 import Home from '../Paginas/Home';
+import Categoria from '../Paginas/Categoria';
 import Usuario from"../Paginas/Usuario";
-import NotFound from '../Paginas/NotFound';
+import Compra from '../Paginas/Compra';
 
 
 function Rutas() {
@@ -15,9 +16,10 @@ function Rutas() {
          <Router>
              <Layout>
                  <Routes>
-                     <Route exact path="/" element = {<Home/>}/>
+                     <Route exact path="/Home" element = {<Home/>}/>
+                     <Route exact path='/Categoria'element={<Categoria/>}/>
                      <Route exact path="/Usuario" element={<Usuario/>}/>
-                     <Route path="*" element={<NotFound/>}/>
+                     <Route path="/Compra" element={<Compra/>}/>
                  </Routes>
              </Layout>
          </Router>

@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 //import App from "./App"
-
-
+import "materialize-css" 
 import Aplicacion from './Aplicacion';
 import reportWebVitals from './reportWebVitals';
 import "materialize-css/dist/css/materialize.min.css";

@@ -24,40 +24,47 @@ function Home() {
   return (
     <div>
       <div class="row">
-        <div class="col s12 m12">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">iniciar sesion con correo</span>
+        <div class="col s12 m12 blue">
+          <div class="card white darken">
+            <div class="card-content black-text">
+            <div>
+          <h5 class="center-align">iniciar sesion con correo</h5>
+            </div>
               <div class="row">
                 <form class="col s12">
                   <div class="row">
 
                     <div class="input-field col s6">
                       <input id="first_name" type="text" class="validate"/>
-                      <label for="first_name">Introduce correo</label>
+                      <label for="first_name">Correo</label>
                     </div>
                     
 
                     <div class="input-field col s6">
-                      <input id="last_name" type="text" class="validate" />
-                      <label for="last_name">confirmar correo</label>
+                      <input id="last_email" type="text" class="validate" />
+                      <label for="last_email">Contraseña</label>
                     </div>
 
                   </div>
 
                   <div class="row">
-                    <div class="input-field col s12">
-                      <input id="password" type="password" class="validate" />
-                      <label for="password">Password</label>
+                    <div class="input-field col s6">
+                      <input id="first_name" type="text" class="validate" />
+                      <label for="first_name">Facebook</label>
                     </div>
+
+                    <div class="input-field col s6">
+                      <input id="last_email" type="text" class="validate" />
+                      <label for="last_email">Contraseña</label>
+                    </div>
+
                   </div>
                 </form>
               </div>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn">
-                <i class="material-icons left"></i>crear cuenta
-              </a>
+              <h5 class="center-align"><button class="btn waves-effect waves-light" type="submit">Enviar</button></h5>
+              <div>
+              <h5 class="center-align"><button class="btn waves-effect waves-light" type="submit">Crear cuenta</button></h5>
+              </div>  
             </div>
           </div>
         </div>
@@ -66,4 +73,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Home

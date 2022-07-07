@@ -1,0 +1,33 @@
+{
+  "name": "server-sac",
+  "version": "1.0.0",
+  "description": "conexiones HTTP con la app movil",
+  "main": "index.js",
+  "scripts": {
+    "test": "cors,HTTP",
+    "start": "nodemon index.js --exec babel-node",
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "keywords": [
+    "Nodemon",
+    "Mongoose",
+    "Cors",
+    "Express",
+    "Express-Promise-Router",
+    "Morgan",
+    "Babel/cli"
+  ],
+  "author": "Eliazer Hernandez Jimenez, Limberg Alan Hernandez Perez",
+  "license": "ISC",
+  "devDependencies":{
+    "@babel/cli": "^7.18.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-promise-router": "^4.1.1",
+    "mongoose": "^6.4.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18"
+  }
+}
