@@ -35,14 +35,14 @@ function Home() {
                   <div class="row">
 
                     <div class="input-field col s6">
-                      <input id="first_name" type="text" class="validate"/>
-                      <label for="first_name">Correo</label>
+                      <input id="last_email" type="text" class="validate"/>
+                      <label for="last_email">Correo</label>
                     </div>
                     
 
                     <div class="input-field col s6">
-                      <input id="last_email" type="text" class="validate" />
-                      <label for="last_email">Contraseña</label>
+                      <input id="last_password" type="text" class="validate" />
+                      <label for="last_password">Contraseña</label>
                     </div>
 
                   </div>
@@ -54,8 +54,8 @@ function Home() {
                     </div>
 
                     <div class="input-field col s6">
-                      <input id="last_email" type="text" class="validate" />
-                      <label for="last_email">Contraseña</label>
+                      <input id="last_password" type="text" class="validate" />
+                      <label for="last_password">Contraseña</label>
                     </div>
 
                   </div>

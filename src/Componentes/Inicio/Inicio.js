@@ -34,7 +34,18 @@ function Menu() {
               <Link to="/Compra">Compra</Link>
             </li>
             <li>
-              <Link to="/Categoria">Categoria</Link>
+              <Link to="/Categoria"> <a class='dropdown-trigger List' href='#' data-target='dropdown1'>Categoria</a>
+
+
+<ul id='dropdown1' class='dropdown-content'>
+  <li><a href="#!">Calsetas</a></li>
+  <li><a href="#!">Camisas</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a href="#!">Shorts</a></li>
+  <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+  <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+</ul>
+</Link>
             </li>
             <li>
               <Link to="/Usuario">Usuario</Link>
@@ -52,7 +63,19 @@ function Menu() {
           <Link to="/Compra">Compra</Link>
         </li>
         <li>
-              <Link to="/Categoria">Categoria</Link>
+              <Link to="/Categoria">
+              <a class='dropdown-trigger btn' href='#' data-target='dropdown1'></a>
+
+
+<ul id='dropdown1' class='dropdown-content'>
+  <li><a href="#!">Calsetas</a></li>
+  <li><a href="#!">Camisas</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a href="#!">Shorts</a></li>
+  <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+  <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+</ul>
+              </Link>
             </li>
         <li>
           <Link to="/Usuario">Usuario</Link>

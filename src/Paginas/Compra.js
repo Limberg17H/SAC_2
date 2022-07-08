@@ -2,27 +2,29 @@ import React from 'react';
 
 function Compra() {
   return (
-    <div class="row">
-    <div class="col s6 m6">
-    <div class="card white darken-">
+    <>
+    <div className='row'>
+      <div className='col s3 m3'>
         <div class="card-image">
-          <img src="https://litb-cgis.rightinthebox.com/images/640x640/202106/bps/product/inc/lwqljp1624514284343.jpg"/>
+          <img width= "180px" class="responsive-img cool" src="https://cdn.fashiola.mx/L527326981/playera-nike-poliester-futbol-para-caballero.jpg.jpg"/>
           <span class="card-title black-text">Playera de hombre</span>
-        </div>
-        <div class="card-content">
-          <p>21Grams® Hombre Camiseta para correr Camiseta Cima Deportivo Ropa Deportiva Verano Licra Transpirable Secado rápido Dispersor de humedad Aptitud física Entrenamiento de gimnasio Corriendo / Elástico.</p>
-        </div>
-        <div class="card-action">
+          </div>
+          <div class="card-content">
+            <p>21Grams® Hombre Camiseta para correr Camiseta Cima Deportivo Ropa Deportiva Verano Licra Transpirable Secado rápido Dispersor de humedad Aptitud física Entrenamiento de gimnasio Corriendo / Elástico.</p>
+            </div>
+            <div class="card-action">
 
           <div class="input-field col s6">
-          </div>
-          <a class="</div>center-text">MXN $317.62</a>
-          <div class="input-field col s6">
-          </div>
-<a class="waves-effect waves-light btn">Comprar</a>
+           </div>
+            <a class="</div>center-text">MXN $317.62</a>
+             <div class="input-field col s6">
+            </div>
+          <a class="waves-effect waves-light btn">Comprar</a>
         </div>
-        <div class="card-image">
-          <img src="https://cdn1.coppel.com/images/catalog/pr/2067052-1.jpg"/>
+        </div>
+<div className='col s3 m3'>
+<div class="card-image">
+          <img width="200px"src="https://cdn1.coppel.com/images/catalog/pr/2067052-1.jpg"/>
           <span class="card-title black-text">Short Nike Deportivo Dri-FIT Juvenil</span>
         </div>
         <div class="card-content">
@@ -36,9 +38,11 @@ function Compra() {
           <div class="input-field col s6">
           </div>
 <a class="waves-effect waves-light btn">Comprar</a>
-        </div>
-        <div class="card-image">
-          <img src="https://cdn1.coppel.com/images/catalog/pr/1358642-1.jpg"/>
+</div>
+</div>
+<div className='col s3 m3'>
+<div class="card-image">
+          <img width = "192px"src="https://cdn1.coppel.com/images/catalog/pr/1358642-1.jpg"/>
           <span class="card-title black-text">Calcetas Deportivas Adidas</span>
         </div>
         <div class="card-content">
@@ -53,8 +57,11 @@ function Compra() {
           </div>
 <a class="waves-effect waves-light btn">Comprar</a>
       </div>
+</div>
+    </div>
+    <div className='col s3 m3'>
       <div class="card-image">
-          <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5bc6230d24924736ab03ab4a009aed6c_9366/Tenis_Fluidstreet_Negro_FW1703_01_standard.jpg"/>
+          <img width="192px" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5bc6230d24924736ab03ab4a009aed6c_9366/Tenis_Fluidstreet_Negro_FW1703_01_standard.jpg"/>
           <span class="card-title black-text">Tenis fluidstreet</span>
         </div>
         <div class="card-content">
@@ -69,9 +76,9 @@ function Compra() {
           </div>
 <a class="waves-effect waves-light btn">Comprar</a>
           </div>
-        </div>
-    </div>
- </div>
+          </div>
+        
+ </>
 
   );
 }
