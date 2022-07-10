@@ -8,7 +8,7 @@ function Layout({children}) {
     <div>
       <Inicio/>
       {children}
-      <Footer/>
+      
     </div>
   )
 }

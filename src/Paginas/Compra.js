@@ -1,9 +1,11 @@
 import React from 'react';
 
+//import "materialize-css/dist/css/materialize.min.css";
+
 function Compra() {
   return (
     <>
-    <div className='row'>
+    <div className='row col s12 m12 '>
       <div className='col s3 m3'>
         <div class="card-image">
           <img width= "180px" class="responsive-img cool" src="https://cdn.fashiola.mx/L527326981/playera-nike-poliester-futbol-para-caballero.jpg.jpg"/>
@@ -19,9 +21,10 @@ function Compra() {
             <a class="</div>center-text">MXN $317.62</a>
              <div class="input-field col s6">
             </div>
-          <a class="waves-effect waves-light btn">Comprar</a>
+            <button type="button" class="btn btn-primary">Comprar</button>
         </div>
         </div>
+
 <div className='col s3 m3'>
 <div class="card-image">
           <img width="200px"src="https://cdn1.coppel.com/images/catalog/pr/2067052-1.jpg"/>
@@ -37,7 +40,7 @@ function Compra() {
           <a class="</div>center-text">MXN $399</a>
           <div class="input-field col s6">
           </div>
-<a class="waves-effect waves-light btn">Comprar</a>
+          <button type="button" class="btn btn-primary">Comprar</button>
 </div>
 </div>
 <div className='col s3 m3'>
@@ -55,10 +58,12 @@ function Compra() {
           <a class="</div>center-text">MXN $319</a>
           <div class="input-field col s6">
           </div>
-<a class="waves-effect waves-light btn">Comprar</a>
+          <button type="button" class="btn btn-primary">Comprar</button>
       </div>
 </div>
+
     </div>
+    <br/>
     <div className='col s3 m3'>
       <div class="card-image">
           <img width="192px" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5bc6230d24924736ab03ab4a009aed6c_9366/Tenis_Fluidstreet_Negro_FW1703_01_standard.jpg"/>
@@ -74,7 +79,7 @@ function Compra() {
           <a class="</div>center-text">MXN $1,499</a>
           <div class="input-field col s6">
           </div>
-<a class="waves-effect waves-light btn">Comprar</a>
+          <button type="button" class="btn btn-primary">Comprar</button>
           </div>
           </div>
         

@@ -1,87 +1,77 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-import M from 'materialize-css';
+
+import "material-icons";
 
 function Menu() {
 
-  const colapsado=()=>{
-    var elems = document.querySelectorAll('.sidenav');
-    M.Sidenav.init(elems);
-  }
-
-
-  useEffect(() => {
-   colapsado();
-  }, [])
-  
-  return (   
-        <div>
-     <nav>      
-        <div className="nav-wrapper-center">          
-          <Link to="wrapper-blue" class="brand-logo">
-            SAC 
+  return (
+    <div>
+      <nav>
+      
+      <ul class="nav nav-tabs justify-content-end">
+      
+    <a class="navbar-brand content-center" href="#">
+      <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"/>
+      SAC
+    </a>
+    
+        <li class="nav-item">
+          <Link to="/Home" class="nav-link active" aria-current="page" href="#">
+            Home
           </Link>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-            <i class="material-icons">  Menu</i>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+          >
+            Categoria
           </a>
-          <ul class="right hide-on-med-and-down">
+          <ul class="dropdown-menu">
             <li>
-              <Link to="/Home">Home</Link>
-            </li>
-            <li>
-              <Link to="/Compra">Compra</Link>
-            </li>
-            <li>
-              <Link to="/Categoria"> <a class='dropdown-trigger List' href='#' data-target='dropdown1'>Categoria</a>
-
-
-<ul id='dropdown1' class='dropdown-content'>
-  <li><a href="#!">Calsetas</a></li>
-  <li><a href="#!">Camisas</a></li>
-  <li class="divider" tabindex="-1"></li>
-  <li><a href="#!">Shorts</a></li>
-  <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-  <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-</ul>
-</Link>
-            </li>
-            <li>
-              <Link to="/Usuario">Usuario</Link>
-            </li>
-            
-          </ul>
-        </div>
-      </nav>
-
-      <ul class="sidenav" id="mobile-demo">
-        <li>
-          <Link to="/Home">Home</Link>
-        </li>
-        <li>
-          <Link to="/Compra">Compra</Link>
-        </li>
-        <li>
-              <Link to="/Categoria">
-              <a class='dropdown-trigger btn' href='#' data-target='dropdown1'></a>
-
-
-<ul id='dropdown1' class='dropdown-content'>
-  <li><a href="#!">Calsetas</a></li>
-  <li><a href="#!">Camisas</a></li>
-  <li class="divider" tabindex="-1"></li>
-  <li><a href="#!">Shorts</a></li>
-  <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-  <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-</ul>
+              <Link class="dropdown-item" to="#">
+                Action
               </Link>
             </li>
-        <li>
-          <Link to="/Usuario">Usuario</Link>
+            <li>
+              <Link class="dropdown-item" to="#">
+                Another action
+              </Link>
+            </li>
+            <li>
+              <Link class="dropdown-item" to="#">
+                Something else here
+              </Link>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <Link class="dropdown-item" to="#">
+                Separated link
+              </Link>
+            </li>
+          </ul>
         </li>
-        
+        <li class="nav-item">
+          <Link class="nav-link" to="/Formulario">
+            Registrarse
+          </Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/Compra">Compra</Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/Usuario">Usuario</Link>
+        </li>
       </ul>
+      </nav>
     </div>
   );
 }
